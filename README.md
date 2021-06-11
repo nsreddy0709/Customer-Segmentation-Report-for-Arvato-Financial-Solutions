@@ -12,13 +12,16 @@
 
 
 ## Requirements <a name="requirements"></a>
-numpy
-pandas
-matplotlib
-seaborn
-sklearn
-py-xgboost
-are the py packages required for this project
+This project uses the following software and Python libraries:
+
+* [Python](https://www.python.org/downloads/release/python-364/)
+* [NumPy](http://www.numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [scikit-learn](https://scikit-learn.org/0.17/install.html)
+* [AdaBoost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)
+* [XGBoost](https://xgboost.readthedocs.io/en/latest/python/python_api.html)
+* [GradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+
 ## Project Overview<a name="overview"></a>
 The Problem Statement for this project is pretty straight forward “How can an existing mail ordercompany selling organic products can acquire more number of clients in order to expand their business?”
 The proposed solution is divided into 2 subparts.The first part would deal with the segmentation of the customers using unsupervised machine learningtechniques based on the intersection of the data with current customers and population provided.Secondly, a supervised model will be used to predict the outcome whether or not a customer is likely tobe in the targeted audience or not.
